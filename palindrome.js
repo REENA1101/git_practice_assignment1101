@@ -1,13 +1,13 @@
-let str="abccba"
-let new_str=""
+let str="naman"
+let reverse=""
 
 for(let i=str.length-1;i>=0;i--)
 {
-  new_str+=str[i];
+  reverse+=str[i];
 }
-if(new_str==str){
-    print="Yes"
+if(reverse==str){
+    print="String is palindrome"
 }else{
-    print="No"
+    print="String is not a palindrome"
 }
 console.log(print)
