@@ -1,13 +1,13 @@
 let str="abccba"
 let new_str=""
 
-for(let i=str.length-1;i>=0;i++){
+for(let i=str.length-1;i>=0;i--)
+{
   new_str+=str[i];
-  if(new_str==str){
+}
+if(new_str==str){
     print="Yes"
-  }else{
+}else{
     print="No"
-  }
-  }
-console.log(printssss);
-
+}
+console.log(print)
