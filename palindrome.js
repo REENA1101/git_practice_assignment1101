@@ -1,3 +1,4 @@
+
 let string="abccba"
 let new_string=""
 
